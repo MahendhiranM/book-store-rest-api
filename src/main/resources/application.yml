@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3300/bookstore
+    username: root
+    password: 
+
+spring.jpa.defer-datasource-initialization: true
+spring.jpa.show-sql: true
+
+spring.jpa.hibernate.ddl-auto: update
+spring.jpa.properties.hibernate.dialect: org.hibernate.dialect.MySQLDialect
+
